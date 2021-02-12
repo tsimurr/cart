@@ -26,7 +26,7 @@
 			$placeholders = array('EUR', 'USD', 'GBP');
 			$vals = array(1, 1.14, 0.88);
 			$rep_cur = str_replace($placeholders, $vals, $cur);
-			$sum = $sum + $q * $p * $rep_cur;
+			$sum = $sum + $q * $p  $rep_cur;
 		}
 	
 	}
