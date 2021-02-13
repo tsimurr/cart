@@ -30,5 +30,5 @@
 		}
 	
 	}
-	echo($sum);
+	echo(round($sum, 2));
 ?>
